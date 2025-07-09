@@ -18,8 +18,9 @@ import mongodb from "../assets/mongodb.png";
 import node from "../assets/node.png";
 import reactjs from "../assets/reactjs.png";
 import rgb from "../assets/rgb.jpg";
-import mess from "../assets/mess.png";
-import supermarket from "../assets/supermarket.png";
+import crm from "../assets/crm.jpg";
+import book from "../assets/book.jpg";
+import repo from "../assets/repo.jpg";
 import ehawkerimg from "../assets/asx.jpg";
 
 const navLinks = [
@@ -195,11 +196,12 @@ const skills = [
     icon: npm,
   },
 ];
-
+ 
 const projects = [
   {
     name: "Ehawkers Marketing",
-    description: "Designed and developed a responsive React web application based on Figma prototypes, implementing smooth UI animations and transitions to enhance user experience. Focused on pixel-perfect layout matching, interactive components, and modern design aesthetics.",
+    description:
+      "Designed and developed a responsive React web application based on Figma prototypes, implementing smooth UI animations and transitions to enhance user experience. Focused on pixel-perfect layout matching, interactive components, and modern design aesthetics.",
     // "VotifyU is a MERN stack-based college election platform with a React Native interface and Node.js backend. It allows candidates to register and share campaigns while students cast votes easily. Features include prompt results and a helpline, promoting transparency, engagement, and a democratic student community.",
     tags: [
       {
@@ -234,7 +236,7 @@ const projects = [
   {
     name: "RGB Color Generator",
     description:
-     "Created an RGB Color Generator using JavaScript that generates random RGB colors and displays the corresponding RGB code. Focused on simple UI and real-time color output.",
+      "Created an RGB Color Generator using JavaScript that generates random RGB colors and displays the corresponding RGB code. Focused on simple UI and real-time color output.",
     tags: [
       {
         name: "HTML",
@@ -244,63 +246,88 @@ const projects = [
         name: "CSS",
         color: "kotlin",
       },
-   
+
       {
         name: "JAVA SCRIPT",
         color: "kotlin",
       },
-   
     ],
     image: rgb,
     source_code_link: "https://github.com/cyberhunk/RGB-Color",
-    view: "https://rgbcolorgenrate.netlify.app/"
+    view: "https://rgbcolorgenrate.netlify.app/",
   },
   {
-    name: "Mess Management Application",
+    name: "Employee Management CRM",
     description:
-      "Developed NITC Mess Manager, an Android app for streamlined mess management at NITC campus. Enabled student enrollment in mess services via a user-friendly interface and provided contractors with real-time menu updates.",
+      "A React-based frontend CRM system to manage employees and tasks. Admin can assign tasks, track their status, and employees can view and update their task progress — all with login-based access.",
     tags: [
       {
-        name: "kotlin",
+        name: "React js ",
         color: "kotlin",
       },
       {
-        name: "android",
+        name: "Tailwind css",
         color: "android",
       },
       {
-        name: "nodejs",
+        name: "Bootstrap",
+        color: "nodejs",
+      },
+    ],
+    image: crm,
+    source_code_link: "https://github.com/cyberhunk/employee-menagement-crm",
+  },
+  {
+    name: "Book Store",
+    description:
+      "A fully functional Online Book Store application built with the MERN stack. Users can browse books, view details, add them to cart, and place orders. Admin can manage inventory including adding, editing, and deleting books.",
+    tags: [
+      {
+        name: "React js ",
+        color: "kotlin",
+      },
+      {
+        name: "Bootstrap",
+        color: "android",
+      },
+      {
+        name: "Node js",
         color: "nodejs",
       },
       {
-        name: "mongodb",
-        color: "mongodb",
+        name: "Express js",
+        color: "nodejs",
       },
     ],
-    image: mess,
-    source_code_link: "https://github.com/prasant7978/NITC-Mess-Manager-NodeJS",
+    image: book,
+    source_code_link: "https://github.com/cyberhunk/book-store",
   },
   {
-    name: "Supermarket Management System",
-    description:
-      "Developed a comprehensive supermarket software solution for optimized sales activity and inventory control, ensuring accurate recording of transaction details. Implemented a robust system to generate precise invoices or receipts, enhancing customer experience.",
+    name: "Explore My GitHub Repositories",
+
+    description: "",
+    // "A fully functional Online Book Store application built with the MERN stack. Users can browse books, view details, add them to cart, and place orders. Admin can manage inventory including adding, editing, and deleting books.",
     tags: [
       {
-        name: "java",
-        color: "java",
+        name: "React js ",
+        color: "kotlin",
       },
       {
-        name: "mysql",
-        color: "sql",
+        name: "Bootstrap",
+        color: "android",
       },
       {
-        name: "swing",
-        color: "swing",
+        name: "Node js",
+        color: "nodejs",
+      },
+      {
+        name: "Express js",
+        color: "nodejs",
       },
     ],
-    image: supermarket,
-    source_code_link:
-      "https://github.com/prasant7978/Supermarket-Management-System",
+    view: "https://github.com/cyberhunk?tab=repositories",
+    image: repo,
+    source_code_link: "https://github.com/cyberhunk?tab=repositories",
   },
 ];
 

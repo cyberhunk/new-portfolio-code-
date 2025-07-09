@@ -1,4 +1,4 @@
-import  { useState } from "react";
+import { useState } from "react";
 import "./Contact.scss";
 import { MdEmail } from "react-icons/md";
 import emailjs from "@emailjs/browser";
@@ -62,7 +62,7 @@ const Contact = () => {
       emailjs
         .send(
           "service_lx61kij",
-          "template_xnvuxxq",
+          "template_zkfwm9r",
 
           {
             from_name: form.fullName,
