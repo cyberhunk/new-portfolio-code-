@@ -1,0 +1,48 @@
+.projects-container {
+  margin-bottom: 150px;
+
+  .projectText {
+    color: var(--muted-foreground);
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    max-width: 70%;
+    line-height: 1.5rem;
+  }
+
+  .projectContainer {
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .projects-container {
+    .projectText {
+      min-width: 80%;
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .projects-container {
+    .projectText {
+      min-width: 95%;
+    }
+
+    .projectContainer {
+      margin-top: 3rem;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .projects-container {
+    .projectText {
+      max-width: 100%;
+      font-size: 0.8rem;
+      line-height: 1.1rem;
+    }
+  }
+}

@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --bg-primary: #050816;
+  --bg-secondary: #395886;
+  --bg-tertiary: #16325b;
+  --bg-accent: #628ecb;
+  --highlight-color: #8aaee0;
+  --light-background-color: #b1c9ef;
+  --light-accent-color: #d5deef;
+  --text-color: #f0f3fa;
+  --muted-foreground: #7f8296;
+  --blur-background: rgba(5, 8, 22, 0.6);
+  --gradient-1: linear-gradient(
+    260deg,
+    var(--highlight-color) 0%,
+    var(--bg-secondary) 100%
+  );
+  --linkedin: linear-gradient(45deg, #0072b1, #005582);
+  --gmail: linear-gradient(45deg, #ea4335, #fbbc05, #34a853, #4285f4);
+  --github: linear-gradient(135deg, #222222 50%, #000000 100%);
+  --instagram: linear-gradient(
+    45deg,
+    #f09433,
+    #e6683c,
+    #dc2743,
+    #cc2366,
+    #bc1888
+  );
+}
+
+.green-pink-gradient {
+  background: "#00cea8";
+  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+}
+
+.reactnative {
+  background: linear-gradient(135deg, #61dafb 0%, #003366 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mongodb {
+  background: linear-gradient(135deg, #47a248 0%, #2d6e34 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nodejs {
+  background: linear-gradient(135deg, #68a063 0%, #3c763d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.expressjs {
+  background: linear-gradient(135deg, #bbbbbb 0%, #4f4f4f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sql {
+  background: linear-gradient(135deg, #00758f 0%, #003366 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.java {
+  background: linear-gradient(135deg, #f89820 0%, #b72c1e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.swing {
+  background: linear-gradient(135deg, #cccccc 0%, #666666 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.kotlin {
+  background: linear-gradient(135deg, #a97bff 0%, #ff6b97 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.android {
+  background: linear-gradient(135deg, #3ddc84 0%, #2a6e37 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: 0;
+  outline: 0;
+}
+
+html,
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--bg-primary);
+  // background-color: black;
+  color: var(--text-color);
+  font-family: "Poppins", sans-serif;
+  scrollbar-width: thin;
+  scrollbar-color: var(--bg-accent) transparent;
+  overflow: hidden;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 1800px;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+.black-gradient {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.padding-horizontal {
+  padding: 0 10rem;
+}
+
+.button {
+  background-color: var(--bg-secondary);
+  color: var(--light-accent-color);
+  align-items: center;
+  width: fit-content;
+  border-radius: 20px;
+  padding: 10px 25px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--bg-accent);
+    color: var(--text-color);
+  }
+}
+
+.card {
+  background-color: var(--light-background-color);
+  border: 1px solid var(--highlight-color);
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+@media (max-width: 1440px) {
+  .padding-horizontal {
+    padding: 0 5rem;
+  }
+}
+
+@media (max-width: 756px) {
+  .button {
+    width: fit-content;
+    padding: 8px 15px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .padding-horizontal {
+    padding: 0 2rem;
+  }
+}

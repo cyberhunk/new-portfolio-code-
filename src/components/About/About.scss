@@ -1,0 +1,49 @@
+.about-container {
+  margin-bottom: 150px;
+
+  .aboutText {
+    color: var(--muted-foreground);
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    max-width: 65%;
+    line-height: 1.5rem;
+  }
+
+  .service {
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.5rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .about-container{
+    .aboutText{
+      min-width: 80%;
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .about-container{
+    .aboutText{
+      min-width: 90%;
+    }
+
+    .service {
+      margin-top: 3rem;
+      gap: 2.5rem;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .about-container{
+    .aboutText{
+      max-width: 100%;
+      font-size: 0.8rem;
+      line-height: 1.1rem;
+    }
+  }
+}

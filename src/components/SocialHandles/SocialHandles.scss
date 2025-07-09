@@ -1,0 +1,54 @@
+.handles-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  .icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    min-width: 2rem;
+    min-height: 2rem;
+    max-width: 2.5rem;
+    max-height: 2.5rem;
+    background: var(--bg-tertiary);
+    font-size: 1.3rem;
+    border-radius: 100%;
+    color: var(--muted-foreground);
+    transition: all 0.5s ease;
+
+    &:hover {
+      transform: scale(1.1);
+      color: var(--text-color);
+    }
+
+    &.linkedin:hover {
+      background: var(--linkedin);
+    }
+
+    &.instagram:hover {
+      background-image: var(--instagram);
+    }
+
+    &.gmail:hover {
+      background: var(--gmail);
+    }
+
+    &.github:hover {
+      background: var(--github);
+    }
+  }
+}
+
+@media(max-width: 756px) {
+  .handles-container{
+    gap: 0.5rem;
+
+    .icon-wrapper{
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+}

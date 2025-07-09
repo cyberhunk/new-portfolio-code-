@@ -1,0 +1,23 @@
+.skills-container {
+  margin-bottom: 150px;
+
+  .all-skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 3rem;
+    max-width: 98%;
+    align-items: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .skills-container {
+    .all-skills {
+      gap: 1.5rem;
+      margin-top: 3rem;
+      max-width: 100%;
+    }
+  }
+}

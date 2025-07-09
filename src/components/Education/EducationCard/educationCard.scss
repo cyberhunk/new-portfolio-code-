@@ -1,0 +1,84 @@
+.cardStyle {
+  .details-container {
+    .course {
+      color: var(--text-color);
+      font-size: 1.5rem;
+      line-height: 1.8rem;
+    }
+
+    .instName {
+      margin: 7px 0;
+      color: var(--bg-primary);
+      font-size: 1.1rem;
+      font-weight: 600;
+      line-height: 1.3rem;
+    }
+
+    .grade {
+      margin: 0;
+      color: var(--text-color);
+    }
+  }
+
+  .description {
+    color: var(--text-color);
+    font-size: 0.9rem;
+  }
+
+  .badge-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    gap: 0.5rem;
+
+    .badge {
+      padding: 0.5rem 1.5rem;
+      background: var(--light-accent-color);
+      border-radius: 50px;
+
+      p{
+        color: var(--bg-primary);
+        margin: 0;
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
+
+@media(max-width: 500px){
+  .cardStyle{
+    .badge-icon{
+      height: 30px !important;
+      width: 30px !important;
+    }
+
+    .details-container{
+    .course{
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+      }
+
+      .instName{
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+      }
+    }
+
+    .description{
+      font-size: 0.7rem;
+      line-height: 1rem;
+    }
+
+    .badge-container{
+      .badge{
+        padding: 0.2rem 0.8rem;
+
+        p{
+          font-size: 0.7rem;
+        }
+      }
+    }
+  }
+}
