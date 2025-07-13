@@ -7,7 +7,7 @@ import nitc from "../assets/nitc.jpeg";
 import ehawkers from "../assets/ehawker.png";
 import bootstrap from "../assets/bootstrap.png";
 import npm from "../assets/npm.png";
-import Shopifys from "../assets/Shopify.png";
+import Shopifys from "../assets/shopify.png";
 import css from "../assets/css.png";
 import scss from "../assets/scss.jpeg";
 import tail from "../assets/tail.png";
