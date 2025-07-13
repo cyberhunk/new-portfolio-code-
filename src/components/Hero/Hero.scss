@@ -11,6 +11,10 @@
       max-width: 400px;
       position: relative;
       margin: 0 auto;
+      border-radius: 190px 190px 0 0;
+
+      background: (--bg-secondary);
+      background: #395886;
 
       &::before {
         content: "";
@@ -190,6 +194,11 @@
 @media (max-width: 500px) {
   .hero {
     .container {
+      .hero-image {
+        img {
+          // height: 300px;
+        }
+      }
       .right-container {
         .top-container {
           h1 {

@@ -26,7 +26,7 @@ const Logo = () => {
   return (
     <div className='logo-container'>
         {/* <img src={logo} alt="logo" className='logo-icon'/> */}
-        <h1>Satyam Vishwakrma</h1>
+        <h1>Satyam Vishwakarma</h1>
     </div>
   )
 }

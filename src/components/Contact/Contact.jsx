@@ -113,7 +113,7 @@ const Contact = () => {
               <div className="icon-wrapper">
                 <MdEmail />
               </div>
-              <span>satyamvishwakarma1819@gmail.com</span>
+              <span >satyamvishwakarma1819@gmail.com</span>
             </a>
 
             <a href="#" className="option">

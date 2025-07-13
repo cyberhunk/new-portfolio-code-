@@ -7,6 +7,7 @@
 
     .mainContainer {
       min-height: 280px;
+
       background: var(--bg-tertiary);
       border-radius: 10px;
       padding: 20px 50px;
@@ -31,5 +32,10 @@
         margin: 0;
       }
     }
+  }
+}
+@media screen and (max-width: 768px) {
+  .serviceCard {
+    width: 100%;
   }
 }

@@ -99,7 +99,7 @@
           flex-direction: column;
           width: 100%;
           margin-bottom: 20px;
-          
+
           .error {
             color: red;
             font-size: 0.8rem;
@@ -144,22 +144,22 @@
 }
 
 @media (max-width: 1000px) {
-  .contact-container{
+  .contact-container {
     flex-wrap: wrap;
 
-    .container{
+    .container {
       padding: 30px;
 
       .contact-options,
-      .contact-form{
+      .contact-form {
         width: 100%;
       }
 
-      .contact-options{
-        .options{
+      .contact-options {
+        .options {
           margin-top: 30px;
 
-          .option{
+          .option {
             margin: 10px 0;
           }
         }
@@ -168,13 +168,13 @@
   }
 }
 
-@media(max-width: 768px){
-  .contact-container{
-    .container{
-      padding: 20px;
+@media (max-width: 768px) {
+  .contact-container {
+    .container {
+      padding: 15px;
 
-      .contact-options{
-        .heading-1{
+      .contact-options {
+        .heading-1 {
           font-size: 50px;
           line-height: 50px;
         }
@@ -184,28 +184,31 @@
           line-height: 1.1rem;
         }
 
-        .options{
-          .option{
-            .icon-wrapper{
+        .options {
+          .option {
+            .icon-wrapper {
               padding: 7px;
             }
 
-            span{
+            span {
               font-size: 1rem;
+              word-break: break-all;
+              padding: 5px;
+
             }
           }
         }
       }
 
-      .contact-form{
-        .middle{
-          .row{
+      .contact-form {
+        .middle {
+          .row {
             flex-direction: column;
           }
         }
 
-        .bottom{
-          .btn{
+        .bottom {
+          .btn {
             padding: 15px;
           }
         }
