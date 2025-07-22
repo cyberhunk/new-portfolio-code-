@@ -81,6 +81,7 @@ const Navbar = () => {
           </a>
         </div>
 
+
         <div className="menu-btn" onClick={() => setOpenNav(!openNav)}>
           <FaBars />
         </div>
