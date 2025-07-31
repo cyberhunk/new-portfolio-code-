@@ -90,7 +90,7 @@ const ProjectDashboard = () => {
                 Access Dashboard
               </button>
             </form>
-            <small>Hint: Password is 123</small>
+            {/* <small>Hint: Password is 123</small> */}
           </div>
         </div>
       </section>
