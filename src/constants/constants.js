@@ -307,27 +307,27 @@ const projects = [
     source_code_link: "https://github.com/cyberhunk/book-store",
   },
   {
-    name: "Explore My GitHub Repositories",
+    name: "Click Here Explore My GitHub Repositories...",
 
     description: "",
     // "A fully functional Online Book Store application built with the MERN stack. Users can browse books, view details, add them to cart, and place orders. Admin can manage inventory including adding, editing, and deleting books.",
     tags: [
-      {
-        name: "React js ",
-        color: "kotlin",
-      },
-      {
-        name: "Bootstrap",
-        color: "android",
-      },
-      {
-        name: "Node js",
-        color: "nodejs",
-      },
-      {
-        name: "Express js",
-        color: "nodejs",
-      },
+      // {
+      //   name: "React js ",
+      //   color: "kotlin",
+      // },
+      // {
+      //   name: "Bootstrap",
+      //   color: "android",
+      // },
+      // {
+      //   name: "Node js",
+      //   color: "nodejs",
+      // },
+      // {
+      //   name: "Express js",
+      //   color: "nodejs",
+      // },
     ],
     view: "https://github.com/cyberhunk?tab=repositories",
     image: repo,
