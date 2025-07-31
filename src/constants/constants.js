@@ -48,6 +48,10 @@ const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "dashboard",
+    title: "Dashboard",
+  },
 ];
 
 const services = [

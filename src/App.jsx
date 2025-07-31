@@ -10,6 +10,7 @@ import Skills from "./components/Skills/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import ProjectDashboard from "./Pages/ProjectDashboard";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -32,6 +33,7 @@ const App = () => {
       <Skills />
       <Projects />
       <Contact />
+      <ProjectDashboard />
       <Footer />
     </>
   );
