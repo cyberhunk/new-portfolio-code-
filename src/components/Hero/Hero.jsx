@@ -1,6 +1,7 @@
 import React, { useEffect, useLayoutEffect } from "react";
 import "./Hero.scss";
-import formalLow from "../../assets/profilelow.png";
+// import formalLow from "../../assets/profilelow.png";
+import formalLow from "../../assets/f.png";
 import { Link } from "react-scroll";
 import { Typewriter } from "react-simple-typewriter";
 import SocialHandles from "../SocialHandles/SocialHandles";
@@ -78,7 +79,7 @@ const Hero = () => {
     };
     window.scrollTo(0, 0);
   }, []);
-  
+
   return (
     <section className="hero padding-horizontal">
       <div className="container">

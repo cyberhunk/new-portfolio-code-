@@ -22,6 +22,8 @@ import crm from "../assets/crm.jpg";
 import book from "../assets/book.jpg";
 import repo from "../assets/repo.jpg";
 import ehawkerimg from "../assets/asx.jpg";
+import render from "../assets/render.webp";
+import varcel from "../assets/versel.webp";
 
 const navLinks = [
   {
@@ -199,8 +201,18 @@ const skills = [
     name: "NPM",
     icon: npm,
   },
+  {
+    name: "Render",
+    icon: render,
+  },
+  {
+    name: "Vercel",
+    icon: varcel,
+  },
 ];
-
+import fen from "../assets/fen.jpeg";
+import job from "../assets/job.jpeg";
+import kanha from "../assets/i.jpeg";
 const projects = [
   {
     name: "Ehawkers Marketing",
@@ -236,6 +248,72 @@ const projects = [
     image: ehawkerimg,
     source_code_link: " ",
     view: "https://www.ehawkers.co.in/",
+  },
+  {
+    name: "Fenton chemicals",
+    description:
+      "Developed a comprehensive web application for Fenton Chemicals to manage their product inventory and sales. The application features a user-friendly interface for tracking chemical products, managing orders, and generating sales reports.",
+    tags: [
+      {
+        name: "React js",
+        color: "reactnative",
+      },
+      {
+        name: "BootStrap",
+        color: "mongodb",
+      },
+      {
+        name: "mongodb",
+        color: "mongodb",
+      },
+      {
+        name: "Free icons",
+        color: "nodejs",
+      },
+      {
+        name: "nodejs",
+        color: "nodejs",
+      },
+      {
+        name: "expressjs",
+        color: "expressjs",
+      },
+    ],
+    image: fen,
+    source_code_link: "https://github.com/cyberhunk",
+    view: "https://www.fentonchemical.com/",
+  },
+  {
+    fil: "shopify",
+    name: "The hr scoop ",
+    description:
+      "I built an eCommerce website using Shopify to sell job packages. I integrated complete functionality including product listing, Buy Now button, and payment gateway. The website allows users to browse, purchase packages, and make secure online payments easily.",
+    tags: [
+      {
+        name: "Shopify",
+        color: "reactnative",
+      },
+
+    ],
+    image: job,
+    source_code_link: "",
+    view: "https://web.whatsapp.com/",
+  },
+  {
+    fil: "shopify",
+    name: "Kanha art jewellery",
+    description:
+      "Built a professional eCommerce website for Kanha Jewellery using Shopify. Customized theme, product pages, and integrated secure payment and shipping options. Implemented 'Buy Now' and cart functionalities for a smooth customer experience.",
+    tags: [
+      {
+        name: "Shopify",
+        color: "reactnative",
+      },
+
+    ],
+    image: kanha,
+    source_code_link: "",
+    view: "https://kanhaartjewellery.com/",
   },
   {
     name: "RGB Color Generator",

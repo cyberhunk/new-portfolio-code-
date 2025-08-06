@@ -1,19 +1,88 @@
 .projects-container {
   margin-bottom: 150px;
 
+  .projectNav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+
+
+
+
+    .navButton {
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      background-color: var(--background);
+      color: var(--text);
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      border: 1px solid var(--bg-accent);
+
+      &.active {
+        background-color: var(--primary);
+        color: var(--bg-accent);
+      }
+    }
+
+    .github-ac {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 600;
+      background: transparent;
+      border: 1px solid var(--bg-accent);
+      padding: 0.5rem 1rem;
+
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:hover {
+        color: var(--bg-accent);
+      }
+    }
+  }
+
   .projectText {
     color: var(--muted-foreground);
     font-size: 0.9rem;
-    margin-top: 1rem;
-    max-width: 70%;
+    max-width: 80%;
     line-height: 1.5rem;
   }
 
   .projectContainer {
-    margin-top: 5rem;
+    margin-top: 1.5rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 1rem;
+  }
+
+  .pagination {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+    .pageButton {
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      background-color: var(--background);
+      color: var(--text);
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      border: 1px solid var(--bg-accent);
+
+      &.active {
+        background-color: var(--primary);
+        color: var(--bg-accent);
+      }
+    }
   }
 }
 
@@ -39,6 +108,14 @@
 
 @media (max-width: 500px) {
   .projects-container {
+    .projectContainer {
+
+      overflow: auto;
+      white-space: nowrap;
+
+      flex-wrap: nowrap;
+    }
+
     .projectText {
       max-width: 100%;
       font-size: 0.8rem;
