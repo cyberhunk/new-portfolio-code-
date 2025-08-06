@@ -11,12 +11,12 @@ const LoadingScreen = ({ onLoadingComplete }) => {
                     clearInterval(interval);
                     setTimeout(() => {
                         onLoadingComplete();
-                    }, 500); // Wait a bit before hiding loading screen
+                    }, 200); // Wait a bit before hiding loading screen
                     return 100;
                 }
-                return prev + 1;
+                return prev + 1; 
             });
-        }, 30); // Adjust speed as needed (30ms = ~3 seconds total)
+        }, 10); // Adjust speed as needed (30ms = ~3 seconds total)
 
         return () => clearInterval(interval);
     }, [onLoadingComplete]);
