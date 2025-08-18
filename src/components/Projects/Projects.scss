@@ -23,8 +23,8 @@
       border: 1px solid var(--bg-accent);
 
       &.active {
-        background-color: var(--primary);
-        color: var(--bg-accent);
+        background-color: var(--bg-secondary);
+        border: none;
       }
     }
 

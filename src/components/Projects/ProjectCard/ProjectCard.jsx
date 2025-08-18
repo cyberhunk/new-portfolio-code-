@@ -21,14 +21,16 @@ const ProjectCard = ({ project }) => {
       >
         <div className="topContainer">
           <img src={project?.image} alt={project?.name} className="image" />
-          <div className="githubContainer">
-            <div
-              onClick={() => window.open(project?.source_code_link, "_blank")}
-              className="black-gradient innerContainer"
-            >
-              <img src={github} alt="github" />
+          {!project?.tags?.some((tag) => tag.name.toLowerCase() === "shopify") && (
+            <div className="githubContainer">
+              <div
+                onClick={() => window.open(project?.source_code_link, "_blank")}
+                className="black-gradient innerContainer"
+              >
+                <img src={github} alt="github" />
+              </div>
             </div>
-          </div>
+          )}
         </div>
 
         <div className="middleContainer">

@@ -210,10 +210,50 @@ const skills = [
     icon: varcel,
   },
 ];
+
+
 import fen from "../assets/fen.jpeg";
 import job from "../assets/job.jpeg";
 import kanha from "../assets/i.jpeg";
+import jet from "../assets/jet.jpeg";
+import oldehaw from "../assets/oldehaw.jpeg";
+import revoral from "../assets/revoral.jpeg";
 const projects = [
+  {
+    name: "Ehawkers Marketing",
+    description:
+      "The official website for E-Hawkers Marketing, featuring animations created with GSAP, Three.js, and other advanced tools. It is a visually appealing platform that highlights the company’s services and achievements.",
+    // "VotifyU is a MERN stack-based college election platform with a React Native interface and Node.js backend. It allows candidates to register and share campaigns while students cast votes easily. Features include prompt results and a helpline, promoting transparency, engagement, and a democratic student community.",
+    tags: [
+      {
+        name: "React js",
+        color: "reactnative",
+      },
+      {
+        name: "BootStrap",
+        color: "mongodb",
+      },
+      {
+        name: "mongodb",
+        color: "mongodb",
+      },
+      {
+        name: "Free icons",
+        color: "nodejs",
+      },
+      {
+        name: "nodejs",
+        color: "nodejs",
+      },
+      {
+        name: "expressjs",
+        color: "expressjs",
+      },
+    ],
+    image: ehawkerimg,
+    source_code_link: " ",
+    view: "https://www.ehawkers.co.in/",
+  },
   {
     name: "Ehawkers Marketing",
     description:
@@ -245,9 +285,44 @@ const projects = [
         color: "expressjs",
       },
     ],
-    image: ehawkerimg,
+    image: oldehaw,
     source_code_link: " ",
     view: "https://www.ehawkers.co.in/",
+  },
+  {
+    name: "jet trade logistics",
+    description:
+      "Designed and developed a responsive React web application based on Figma prototypes, implementing smooth UI animations and transitions to enhance user experience. Focused on pixel-perfect layout matching, interactive components, and modern design aesthetics.",
+    // "VotifyU is a MERN stack-based college election platform with a React Native interface and Node.js backend. It allows candidates to register and share campaigns while students cast votes easily. Features include prompt results and a helpline, promoting transparency, engagement, and a democratic student community.",
+    tags: [
+      {
+        name: "React js",
+        color: "reactnative",
+      },
+      {
+        name: "BootStrap",
+        color: "mongodb",
+      },
+      {
+        name: "mongodb",
+        color: "mongodb",
+      },
+      {
+        name: "Free icons",
+        color: "nodejs",
+      },
+      {
+        name: "nodejs",
+        color: "nodejs",
+      },
+      {
+        name: "expressjs",
+        color: "expressjs",
+      },
+    ],
+    image: jet,
+    source_code_link: " ",
+    view: "https://www.jettradelogistics.in//",
   },
   {
     name: "Fenton chemicals",
@@ -285,6 +360,22 @@ const projects = [
   },
   {
     fil: "shopify",
+    name: "Revoral",
+    description:
+      "I built an eCommerce website using Shopify to sell job packages. I integrated complete functionality including product listing, Buy Now button, and payment gateway. The website allows users to browse, purchase packages, and make secure online payments easily.",
+    tags: [
+      {
+        name: "Shopify",
+        color: "reactnative",
+      },
+
+    ],
+    image: revoral,
+    source_code_link: "",
+    view: "https://revoral.in/",
+  },
+  {
+    fil: "shopify",
     name: "The hr scoop ",
     description:
       "I built an eCommerce website using Shopify to sell job packages. I integrated complete functionality including product listing, Buy Now button, and payment gateway. The website allows users to browse, purchase packages, and make secure online payments easily.",
@@ -297,7 +388,7 @@ const projects = [
     ],
     image: job,
     source_code_link: "",
-    view: "https://web.whatsapp.com/",
+    view: "https://thehrscoop.com/",
   },
   {
     fil: "shopify",
