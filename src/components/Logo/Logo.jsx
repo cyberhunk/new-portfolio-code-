@@ -26,7 +26,7 @@ const Logo = () => {
   return (
     <div className='logo-container'>
         {/* <img src={logo} alt="logo" className='logo-icon'/> */}
-        <h1 onClick={() => window.scrollTo(0, 0) } style={{ cursor: "pointer", color: "var(--bg-accent)" }}>Satyam</h1>
+        <h1 className="logoname" onClick={() => window.scrollTo(0, 0) } style={{ cursor: "pointer", color: "var(--bg-accent)" }}>Satyam</h1>
     </div>
   )
 }
