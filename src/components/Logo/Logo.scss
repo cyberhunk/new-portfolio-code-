@@ -13,13 +13,13 @@
     font-size: 1.3rem;
   }
   .logoname{
- background-color: var(--bg-accent);
-   color: var(--light-accent-color);
+background-color: var(--bg-secondary);
+    color: var(--light-accent-color);
     align-items: center;
     width: fit-content;
+    cursor: pointer;
     border-radius: 20px;
     padding: 10px 25px;
-    cursor: pointer;
   }
 }
 
