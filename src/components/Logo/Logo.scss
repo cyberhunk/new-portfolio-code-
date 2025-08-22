@@ -12,6 +12,15 @@
     margin: 0;
     font-size: 1.3rem;
   }
+  .logoname{
+
+    background-color: var(--light-accent-color);
+    align-items: center;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 10px 25px;
+    cursor: pointer;
+  }
 }
 
 @media(max-width: 480px){
